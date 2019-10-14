@@ -245,9 +245,12 @@ form {
     }
 }
 
-@media screen and (max-width: 709px) {
+@media screen and (max-width: 730px) {
     li {
-        clear: left;
+        float: right;
+        margin: 0 auto;
+        margin-left: 15px;
+        padding-left: 15px;
     }
 
     h1 {
@@ -259,6 +262,7 @@ form {
 
     .width-header {
         width: 100%;
+        margin: 0;
     }
 
     ul {
@@ -267,7 +271,7 @@ form {
         margin: 0 auto;
         padding-top: 25px;
         padding-bottom: 25px;
-        margin-right: 214.255px;
+        width: 328px;
     }
 
 }
@@ -286,8 +290,8 @@ form {
     }
 
     .width-header {
-        width: 90%;
-        margin: 0 auto;
+        width: 100%;
+        margin: 0;
     }
 
     .img-container {
