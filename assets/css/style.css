@@ -27,6 +27,12 @@ h1 {
     overflow: hidden;
 }
 
+.width-header {
+    width: 75%;
+    margin: 0 auto;
+    /*padding: 0px;*/
+}
+
 .width {
     width: 75%;
     margin: 0 auto;
@@ -172,4 +178,138 @@ form {
 
 .port-cont {
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        margin: 0px;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        overflow: hidden;
+        margin-left: 5%;
+    }
+
+    .width {
+        width:50%;
+    }
+
+    .width-header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    img {
+        padding-top: 8.5px;
+        float: left;
+        padding-right: 30px;
+        width: 45%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0px auto;
+        padding-top: 30px;
+        padding-left: 25px;
+        padding-right: 25px;
+        overflow: hidden;
+    }
+
+    .width {
+        width:90%;
+    }
+
+    .width-header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    img {
+        padding-top: 8.5px;
+        float: left;
+        padding-right: 30px;
+        width: 50%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 709px) {
+    li {
+        clear: left;
+    }
+
+    h1 {
+        float: none;
+        text-align: center;
+        font-size: 40px;
+        padding: 25px 30px;
+    }
+
+    .width-header {
+        width: 100%;
+    }
+
+    ul {
+        padding-top: 0px;
+        overflow: hidden;
+        margin: 0 auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-right: 214.255px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        margin: 0px auto;
+        padding-top: 30px;
+        padding-left: 25px;
+        padding-right: 25px;
+        overflow: hidden;
+    }
+
+    .width {
+        width:85%;
+    }
+
+    .width-header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .img-container {
+        margin: 0 auto;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    img {
+        width: 272px;
+        padding-top: 8.5px;
+        float: none;
+        margin: 0 auto;
+        padding-right: 30px;
+        padding-bottom: 15px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    p {
+        font-size: 22px;
+        clear: both;
+    }
 }
