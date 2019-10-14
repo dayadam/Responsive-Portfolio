@@ -1,0 +1,175 @@
+.header {
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 2px solid #cccccc;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+h1 {
+    margin: 0px;
+    background: #4aaaa5;
+    float: left;
+    padding: 15px 30px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.container {
+    background: #ffffff;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+}
+
+.width {
+    width: 75%;
+    margin: 0 auto;
+    /*padding: 0px;*/
+}
+
+h2 {
+    margin-top: 0px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    /*background: blueviolet*/
+}
+
+a:visited {
+    color: #777777;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+    color: #777777;
+}
+
+img {
+    padding-top: 8.5px;
+    float: left;
+    padding-right: 30px;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.background {
+    background-image: url("../images/criss-cross/criss-cross/criss-cross.png");
+    clear: left;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+footer {
+    background: #666666;
+    padding-top: 30px;
+    text-align: center;
+    border-top: 10px solid #4aaaa5;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-top: 24.5px;
+}
+
+li:last-child {
+    border-left: none;
+}
+
+li {
+    float: right;
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1px solid #aaa;
+}
+
+form {
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.submit {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    background: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.message {
+    height: 200px;
+}
+
+.input {
+    width: 99.5%;
+    float: left;
+}
+
+.contactpara {
+    padding-bottom: 0px;
+    float: left;
+    font-size: 18px;
+}
+
+.block{
+    overflow:hidden;
+    /*background: red;*/
+}
+
+.box {
+    float: left;
+    position: relative;
+}
+
+.port-img {
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+
+.port-img-label {
+    position: absolute;
+    top: 175px;
+    text-align: center;
+    background: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    width: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: .8;
+}
+
+.port-cont {
+    padding-bottom: 10px;
+}
