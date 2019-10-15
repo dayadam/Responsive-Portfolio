@@ -190,6 +190,10 @@ form {
         margin-left: 5%;
     }
 
+    .input {
+        width: 99%;
+    }
+
     .width {
         width:50%;
     }
@@ -339,7 +343,7 @@ form {
     }
     
     .port-img-label {
-        top: 80%;
+        top: 70%;
         padding-top: 25px;
         padding-bottom: 25px;
         font-size: 32px;
