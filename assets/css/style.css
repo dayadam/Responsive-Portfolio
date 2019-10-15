@@ -293,8 +293,8 @@ form {
     li {
         float: right;
         margin: 0 auto;
-        margin-left: 15px;
-        padding-left: 15px;
+        margin-left: 10px;
+        padding-left: 10px;
     }
 
     h1 {
@@ -320,7 +320,7 @@ form {
         margin: 0 auto;
         padding-top: 25px;
         padding-bottom: 25px;
-        width: 328px;
+        width: 280px;
     }
 
 }
