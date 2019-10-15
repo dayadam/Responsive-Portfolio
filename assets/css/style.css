@@ -192,6 +192,7 @@ form {
 
     .input {
         width: 98%;
+        background: blue;
     }
 
     .width {
