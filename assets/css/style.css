@@ -160,6 +160,7 @@ form {
 .port-img {
     padding-bottom: 30px;
     padding-right: 40px;
+    max-width: 300px;
 }
 
 .port-img-label {
@@ -173,7 +174,7 @@ form {
     width: 300px;
     padding-top: 15px;
     padding-bottom: 15px;
-    opacity: .8;
+    opacity: .95;
 }
 
 .port-cont {
@@ -246,8 +247,8 @@ form {
         width: 100%;
         padding-top: 10px;
         padding-bottom: 10px;
-        opacity: .8;
         z-index: 1;
+        font-size: 18px;
     }
     
     .port-cont {
